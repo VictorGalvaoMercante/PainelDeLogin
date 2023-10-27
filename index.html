@@ -17,11 +17,8 @@
         href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Roboto:wght@300&family=Work+Sans&display=swap"
         rel="stylesheet">
 
-<body>
-    <div class="apresentacao">
-        <h2>Faça login <h2>
-                <h3>E entre para nosso time!</h3>
-    </div>
+<body class="is-light">
+
     <div class="imagem">
         <div class="loader">
             <svg viewBox="0 0 80 80">
@@ -44,7 +41,7 @@
     <div class="container">
         <div class="box">
             <h1>LOGIN</h1>
-            <input type="checkbox" class="l">
+          
         </div>
 
         <form>
@@ -52,10 +49,10 @@
             <label for="">Usuário </label><br>
             <input type="text" name="" id="" placeholder="Usuário"><br>
             <label for="">Senha</label> <br>
-            <input type="text" placeholder="Senha"><br>
+            <input type="password" placeholder="Senha" id="senha"><br>
             <div class="checkbox-wrapper-33">
                 <label class="checkbox">
-                    <input type="checkbox" class="checkbox__trigger visuallyhidden">
+                    <input type="checkbox" class="checkbox__trigger visuallyhidden" onclick="mostrarSenha()">
                     <span class="checkbox__symbol">
                         <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 28 28" height="28px"
                             width="28px" class="icon-checkbox" aria-hidden="true">
@@ -80,6 +77,7 @@
 
     </div>
     <script src="https://kit.fontawesome.com/c1c74833e8.js" crossorigin="anonymous"></script>
+    <script src="src/script.js"></script>
 </body>
 
 </html>
